@@ -1,0 +1,10 @@
+# Obsidian workspace (个人布局，频繁变动)
+.obsidian/workspace.json
+
+# 临时文件
+.temp_video_frames/
+tempvf/
+
+# Claude 本地配置
+.claude/
+.claudian/
