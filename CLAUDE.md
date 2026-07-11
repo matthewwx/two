@@ -30,3 +30,5 @@
 
 - [2026-07-11] 一号通过 EchoBird 安装 Claude Code 和 Obsidian，使用 DeepSeek 模型，通过 Claudian 插件在 Obsidian 里使用 AI
 - [2026-07-11] 一号正在写《搭建AI知识库教程》，面向零基础小白，基于 EchoBird + Claudian + Claude Code + Obsidian 的真实方案。今天将教程从 780 行精简到 323 行，定稿，已归档到 04-Archives
+- [2026-07-11] 一号说：以后发现可以做关联的笔记时，主动提醒他加 [[双向链接]]
+- [2026-07-11] 一号对二号的角色定位：文员、设计师、运维工程师、数据库工程师、网络安全与渗透工程师，还要学习在网上挖漏洞（Bug Bounty）赚钱养活自己

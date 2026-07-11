@@ -4,6 +4,10 @@ aliases:
   - AI知识库教程
   - Obsidian AI教程
 status: done
+tags:
+  - github
+  - 备份
+  - 教程
 ---
 
 # 搭建 AI 知识库教程
