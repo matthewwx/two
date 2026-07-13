@@ -162,10 +162,10 @@ Start → 谁的返回长度不一样，谁的数据就被你看到了
 
 ### 安装方法
 
-| 方式 | 步骤 |
-|------|------|
-| **BApp Store 在线安装（推荐）** | `Extender` → `BApp Store` → 搜索插件名 → `Install` |
-| **手动安装 .jar** | `Extender` → `Extensions` → `Add` → 选择 .jar 文件 |
+| 方式                      | 步骤                                             |
+| ----------------------- | ---------------------------------------------- |
+| **BApp Store 在线安装（推荐）** | `Extender` → `BApp Store` → 搜索插件名 → `Install`  |
+| **手动安装 .jar**           | `Extender` → `Extensions` → `Add` → 选择 .jar 文件 |
 
 ### ⭐⭐⭐ 第一梯队（新手必装）
 
@@ -173,9 +173,9 @@ Start → 谁的返回长度不一样，谁的数据就被你看到了
 | ------------------ | ----------------------------------------------- | -------------------------------------------------------------------------------- |
 | Logger++           | 全流量记录，高级过滤/正则搜索/导出，比原生 History 好用得多             | [BApp Store](https://portswigger.net/bappstore/745f9e3c8a5f4d17b56f47a0c3b3b5f9) |
 | HaE                | 自动高亮+提取敏感信息（手机号、邮箱、Token、API Key），一眼看出异常        | [BApp Store](https://github.com/gh0stkey/HaE)                                    |
-| **Autorize** | ⭐ 自动越权检测！用低权限 Cookie 重放高权限请求，红色 "Bypassed!" 即越权 | [手动安装](https://github.com/Quitten/Autorize.git) |
+| **Autorize**       | ⭐ 自动越权检测！用低权限 Cookie 重放高权限请求，红色 "Bypassed!" 即越权 | [手动安装](https://github.com/Quitten/Autorize.git)                                  |
 | **Turbo Intruder** | 高速爆破引擎，比原生 Intruder 快几十倍                        | BApp Store                                                                       |
-|                    |                                                 |                                                                                  |
+
 
 ### ⭐⭐ 第二梯队（进阶推荐）
 
