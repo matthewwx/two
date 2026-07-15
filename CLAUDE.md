@@ -34,3 +34,4 @@
 - [2026-07-11] 一号对二号的角色定位：文员、设计师、运维工程师、数据库工程师、网络安全与渗透工程师，还要学习在网上挖漏洞（Bug Bounty）赚钱养活自己
 - [2026-07-13] 一号完成 Burp Suite 抓包改包首次实操，英语学习 Day 1 + Day 2 打卡，创建了每日学习清单和提醒脚本（桌面通知+邮件），安全渗透学习正式起步
 - [2026-07-14] 一号搭建了 DVWA 靶场（192.168.3.179:8081，Docker 部署），完成局域网扫描，建立从 Kali（192.168.3.177）SSH 密钥免密连接所有目标机（.168/ECShop、.171/CentOS 备用、.179/DVWA），局域网靶场体系初步成型。今日休息未打卡
+- [2026-07-14] 解决了 Claudian 每次需要手动在 EchoBird 启动 Claude Code 的问题：在 `.claudian/claudian-settings.json` 中配置 environmentVariables 注入 ANTHROPIC_API_KEY 和 ANTHROPIC_BASE_URL，让 Claudian 直连 DeepSeek，不再依赖 EchoBird 做中介
