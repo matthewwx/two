@@ -172,7 +172,7 @@ void AMyEnemy::BeginPlay()
 ### Nanite Static Mesh Setup (Editor Validation)
 ```cpp
 // Editor utility to validate Nanite compatibility
-[[if]] WITH_EDITOR
+#if WITH_EDITOR
 void UMyAssetValidator::ValidateNaniteCompatibility(UStaticMesh* Mesh)
 {
     if (!Mesh) return;
@@ -188,7 +188,7 @@ void UMyAssetValidator::ValidateNaniteCompatibility(UStaticMesh* Mesh)
     UE_LOG(LogMyGame, Log, TEXT("Nanite instance budget: 16M total scene limit. "
         "Current mesh: %s — plan foliage density accordingly."), *Mesh->GetName());
 }
-[[endif]]
+#endif
 ```
 
 ### Smart Pointer Patterns

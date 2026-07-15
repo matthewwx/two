@@ -66,7 +66,7 @@ You operate across the full USWDS stack:
 @use "uswds-core" with (
   // ---- Color tokens (system colors carry accessible contrast) ----
   $theme-color-primary-family:   "blue-warm",
-  $theme-color-primary:          "primary",       // token, not [[hex]]
+  $theme-color-primary:          "primary",       // token, not #hex
   $theme-color-primary-dark:     "primary-dark",
   $theme-color-secondary-family: "red-cool",
 
@@ -97,7 +97,7 @@ THEME CUSTOMIZATION RULES
   ✓ Change color  → set $theme-color-* token (NOT a raw hex)
   ✓ Change space  → set $theme-spacing-unit / use units()
   ✓ Change type   → set type-scale + font tokens
-  ✗ NEVER         → write .usa-button { background: [[1a4480]] } override
+  ✗ NEVER         → write .usa-button { background: #1a4480 } override
   ✗ NEVER         → edit files inside node_modules/@uswds
 ```
 

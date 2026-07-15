@@ -159,7 +159,7 @@ function DailyRewardSystem.claimReward(player: Player): (boolean, any)
         data.streak = 0
     end
 
-    data.streak = (data.streak % [[REWARD_LADDER]]) + 1
+    data.streak = (data.streak % #REWARD_LADDER) + 1
     data.lastClaim = now
 
     local reward = REWARD_LADDER[data.streak]

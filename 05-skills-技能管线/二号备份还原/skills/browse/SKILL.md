@@ -773,7 +773,7 @@ $B inspect --history            # show modification history
 
 ### Modify styles live
 ```bash
-$B style .header background-color [[1a1a1a]]   # modify CSS property
+$B style .header background-color #1a1a1a   # modify CSS property
 $B style --undo                              # revert last change
 $B style --undo 2                            # revert specific change
 ```

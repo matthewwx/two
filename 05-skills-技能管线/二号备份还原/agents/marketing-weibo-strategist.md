@@ -133,7 +133,7 @@ vibe: Makes your brand trend on Weibo and keeps the conversation going.
 # Weibo Trending Topic Campaign Plan
 
 ## Basic Info
-- Topic name: [[Brand]] + Core Keyword#
+- Topic name: #Brand + Core Keyword#
 - Topic type: Brand marketing / Event newsjacking / Holiday marketing
 - Target trending position: Top 30 / Top 10
 - Expected impressions: > 50 million

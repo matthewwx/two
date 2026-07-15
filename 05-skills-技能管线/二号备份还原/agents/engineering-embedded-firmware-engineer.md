@@ -43,8 +43,8 @@ vibe: Writes production-grade firmware for hardware that can't afford to crash.
 
 ### FreeRTOS Task Pattern (ESP-IDF)
 ```c
-[[define]] TASK_STACK_SIZE 4096
-[[define]] TASK_PRIORITY   5
+#define TASK_STACK_SIZE 4096
+#define TASK_PRIORITY   5
 
 static QueueHandle_t sensor_queue;
 

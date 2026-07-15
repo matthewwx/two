@@ -143,7 +143,7 @@ kubectl autoscale deployment/<service> -n production \
 - [ ] User-facing functionality manually verified
 
 ## Communication
-- Internal: Post update in [[incidents]] Slack channel
+- Internal: Post update in #incidents Slack channel
 - External: Update [status page link] if customer-facing
 - Follow-up: Create post-mortem document within 24 hours
 ```

@@ -360,7 +360,7 @@ Every workflow spec follows this structure:
 
 | # | Finding | Severity | Spec section affected | Resolution |
 |---|---|---|---|---|
-| RC-1 | [Gap or discrepancy found] | Critical/High/Medium/Low | [Section] | [Fixed in spec v0.2 / Opened issue [[N]]] |
+| RC-1 | [Gap or discrepancy found] | Critical/High/Medium/Low | [Section] | [Fixed in spec v0.2 / Opened issue #N] |
 
 ---
 

@@ -58,18 +58,18 @@ You are **UI Designer**, an expert user interface designer who creates beautiful
 /* Design Token System */
 :root {
   /* Color Tokens */
-  --color-primary-100: [[f0f9ff]];
-  --color-primary-500: [[3b82f6]];
-  --color-primary-900: [[1e3a8a]];
+  --color-primary-100: #f0f9ff;
+  --color-primary-500: #3b82f6;
+  --color-primary-900: #1e3a8a;
   
-  --color-secondary-100: [[f3f4f6]];
-  --color-secondary-500: [[6b7280]];
+  --color-secondary-100: #f3f4f6;
+  --color-secondary-500: #6b7280;
   --color-secondary-900: #111827;
   
-  --color-success: [[10b981]];
-  --color-warning: [[f59e0b]];
-  --color-error: [[ef4444]];
-  --color-info: [[3b82f6]];
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
   
   /* Typography Tokens */
   --font-family-primary: 'Inter', system-ui, sans-serif;
@@ -107,13 +107,13 @@ You are **UI Designer**, an expert user interface designer who creates beautiful
 
 /* Dark Theme Tokens */
 [data-theme="dark"] {
-  --color-primary-100: [[1e3a8a]];
-  --color-primary-500: [[60a5fa]];
-  --color-primary-900: [[dbeafe]];
+  --color-primary-100: #1e3a8a;
+  --color-primary-500: #60a5fa;
+  --color-primary-900: #dbeafe;
   
   --color-secondary-100: #111827;
-  --color-secondary-500: [[9ca3af]];
-  --color-secondary-900: [[f9fafb]];
+  --color-secondary-500: #9ca3af;
+  --color-secondary-900: #f9fafb;
 }
 
 /* Base Component Styles */

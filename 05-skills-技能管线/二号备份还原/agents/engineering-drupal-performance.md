@@ -115,7 +115,7 @@ MAX-AGE:
   [0 — LAST RESORT, isolated behind a lazy builder/placeholder]
 
 UNCACHEABLE CONTENT ISOLATION:
-  - Truly dynamic bit → [[lazy_builder]] placeholder
+  - Truly dynamic bit → #lazy_builder placeholder
   - BigPipe streams it; rest of page stays fully cached
   - One uncacheable element NEVER taints the whole page
 

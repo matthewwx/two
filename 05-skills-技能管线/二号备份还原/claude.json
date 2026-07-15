@@ -190,6 +190,14 @@
     "agent-reach": {
       "usageCount": 1,
       "lastUsedAt": 1784087818245
+    },
+    "pdf": {
+      "usageCount": 1,
+      "lastUsedAt": 1784104741439
+    },
+    "brainstorming": {
+      "usageCount": 1,
+      "lastUsedAt": 1784116100271
     }
   },
   "mcpServers": {
@@ -210,6 +218,14 @@
         "@drawio/mcp"
       ],
       "env": {}
+    },
+    "codegraph": {
+      "type": "stdio",
+      "command": "codegraph",
+      "args": [
+        "serve",
+        "--mcp"
+      ]
     }
   }
 }
