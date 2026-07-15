@@ -11,3 +11,7 @@ tempvf/
 # Claude 本地配置
 .claude/
 .claudian/
+.trellis/
+
+# 备份压缩包（太大不上传，源码已在上面的 skills/ agents/ 目录）
+05-skills-技能管线/二号备份还原/*.tar.gz

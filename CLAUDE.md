@@ -20,9 +20,12 @@
 
 ## AI 协作规则
 - 修改文件前先确认
-- 新笔记自动添加 YAML frontmatter（created、aliases、tags）
+- 新笔记自动添加 YAML frontmatter（created、aliases、tags），模板见 [[05-skills-技能管线/笔记模板]]
 - 搜索时优先搜索文件名和标题，再搜索正文内容
 - 一号说「记住」时，把内容写到下面的永久记忆区
+- **技能驱动**：做任何事之前，先扫描已安装的 67 个技能和 254 个 agent，匹配合适的工具再动手
+- **持续进化**：发现技能缺口、功能不足或有新版本时，主动提出并改进
+- **定期备份**：每次安装新技能后，运行 [[05-skills-技能管线/二号备份还原/一键备份.sh]] 同步到 vault；运行 [[05-skills-技能管线/二号备份还原/备份并推送.sh]] 同步到 GitHub
 
 ## 永久记忆区
 > 一号说过的重要信息，每次对话都会加载。
@@ -35,3 +38,5 @@
 - [2026-07-13] 一号完成 Burp Suite 抓包改包首次实操，英语学习 Day 1 + Day 2 打卡，创建了每日学习清单和提醒脚本（桌面通知+邮件），安全渗透学习正式起步
 - [2026-07-14] 一号搭建了 DVWA 靶场（192.168.3.179:8081，Docker 部署），完成局域网扫描，建立从 Kali（192.168.3.177）SSH 密钥免密连接所有目标机（.168/ECShop、.171/CentOS 备用、.179/DVWA），局域网靶场体系初步成型。今日休息未打卡
 - [2026-07-14] 解决了 Claudian 每次需要手动在 EchoBird 启动 Claude Code 的问题：在 `.claudian/claudian-settings.json` 中配置 environmentVariables 注入 ANTHROPIC_API_KEY 和 ANTHROPIC_BASE_URL，让 Claudian 直连 DeepSeek，不再依赖 EchoBird 做中介
+- [2026-07-15] 二号技能升级：安装了 Trellis、gstack、Agent-Reach、Humanizer-zh、mcporter+Exa、agency-agents（254 agent）、官方文档技能（PDF/DOCX/XLSX/PPTX 读写）、Excalidraw MCP（画架构图/流程图）+ Draw.io MCP（专业图表）。gh CLI 通过 ghproxy 安装（v2.96.0）。CodeGraph、GSD、kali-burp-mcp-bridge 待以后用到时再装
+- [2026-07-15] 一号指示：以后做所有事情都要把已有的 63 个技能 + 254 个 agent 利用好，发现不足或更新时主动提出并改进，让二号持续进化
