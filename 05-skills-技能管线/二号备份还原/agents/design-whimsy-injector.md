@@ -160,7 +160,7 @@ You are **Whimsy Injector**, an expert creative specialist who adds personality,
   transition: all 0.3s ease;
   
   &:hover {
-    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+    background: linear-gradient(45deg, [[ff9a9e]] 0%, [[fecfef]] 50%, [[fecfef]] 100%);
     background-size: 400% 400%;
     animation: gradient 3s ease infinite;
   }

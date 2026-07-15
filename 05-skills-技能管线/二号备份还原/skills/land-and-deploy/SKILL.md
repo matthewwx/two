@@ -883,7 +883,7 @@ If not authenticated, **STOP**: "I need GitHub CLI access to merge your PR. Run 
 gh pr view --json number,state,title,url,mergeStateStatus,mergeable,baseRefName,headRefName
 ```
 
-4. Tell the user what you found: "Found PR #NNN — '{title}' (branch → base)."
+4. Tell the user what you found: "Found PR [[NNN]] — '{title}' (branch → base)."
 
 5. Validate the PR state:
    - If no PR exists: **STOP.** "No PR found for this branch. Run `/ship` first to create a PR, then come back here to land and deploy it."
@@ -1357,7 +1357,7 @@ Build the full readiness report:
 ║              PRE-MERGE READINESS REPORT                  ║
 ╠══════════════════════════════════════════════════════════╣
 ║                                                          ║
-║  PR: #NNN — title                                        ║
+║  PR: [[NNN]] — title                                        ║
 ║  Branch: feature → main                                  ║
 ║                                                          ║
 ║  REVIEWS                                                 ║
@@ -1390,7 +1390,7 @@ If everything is green: recommend A.
 
 Use AskUserQuestion:
 
-- **Re-ground:** "Ready to merge PR #NNN — '{title}' into {base}. Here's what I found."
+- **Re-ground:** "Ready to merge PR [[NNN]] — '{title}' into {base}. Here's what I found."
   Show the report above.
 - If everything is green: "All checks passed. This PR is ready to merge."
 - If there are warnings: List each one in plain English. E.g., "The engineering review

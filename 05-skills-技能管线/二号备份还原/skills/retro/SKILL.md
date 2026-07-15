@@ -898,7 +898,7 @@ git log origin/<default> --since="<window>" --format="%at|%aN|%ai|%s" | sort -n
 # 4. Files most frequently changed (hotspot analysis)
 git log origin/<default> --since="<window>" --format="" --name-only | grep -v '^$' | sort | uniq -c | sort -rn
 
-# 5. PR/MR numbers from commit messages (GitHub #NNN, GitLab !NNN)
+# 5. PR/MR numbers from commit messages (GitHub [[NNN]], GitLab !NNN)
 git log origin/<default> --since="<window>" --format="%s" | grep -oE '[#!][0-9]+' | sort -t'#' -k1 | uniq
 
 # 6. Per-author file hotspots (who touches what)
@@ -1431,7 +1431,7 @@ git -C <path> log origin/$DEFAULT --since="<start_date>T00:00:00" --format="%at|
 # Per-author commit counts
 git -C <path> shortlog origin/$DEFAULT --since="<start_date>T00:00:00" -sn --no-merges
 
-# PR/MR numbers from commit messages (GitHub #NNN, GitLab !NNN)
+# PR/MR numbers from commit messages (GitHub [[NNN]], GitLab !NNN)
 git -C <path> log origin/$DEFAULT --since="<start_date>T00:00:00" --format="%s" | grep -oE '[#!][0-9]+' | sort -t'#' -k1 | uniq
 ```
 

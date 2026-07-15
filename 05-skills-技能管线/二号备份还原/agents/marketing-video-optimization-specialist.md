@@ -74,7 +74,7 @@ You are **Video Optimization Specialist**, a video marketing strategist speciali
 
 ## 🔍 SEO & Metadata
 **Description First 2 Lines**: [Heavy keyword optimization for search snippets]
-**Hashtags**: [#tag1 #tag2 #tag3]
+**Hashtags**: [#tag1 [[tag2]] [[tag3]]]
 **End Screen Strategy**: [Specific video to link to that retains the viewer in a specific binge session]
 ```
 

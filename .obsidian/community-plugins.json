@@ -4,5 +4,9 @@
   "table-editor-obsidian",
   "obsidian-git",
   "github-sync",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "image-converter",
+  "drawio-editor",
+  "drawio-obsidian",
+  "omnisearch"
 ]

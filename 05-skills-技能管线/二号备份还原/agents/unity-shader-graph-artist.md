@@ -123,8 +123,8 @@ public class OutlineRenderPass : ScriptableRenderPass
 ### Optimized HLSL — URP Lit Custom
 ```hlsl
 // CustomLit.hlsl — URP-compatible physically based shader
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
+[[include]] "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+[[include]] "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
 TEXTURE2D(_BaseMap);    SAMPLER(sampler_BaseMap);
 TEXTURE2D(_NormalMap);  SAMPLER(sampler_NormalMap);

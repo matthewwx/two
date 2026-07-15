@@ -1270,7 +1270,7 @@ Dispatch a subagent with this prompt:
 1. Information hierarchy: what does the user see first, second, third? Is it right?
 2. Missing states: loading, empty, error, success, partial — which are unspecified?
 3. User journey: what's the emotional arc? Where does it break?
-4. Specificity: does the plan describe SPECIFIC UI ("48px Söhne Bold header, #1a1a1a on white") or generic patterns ("clean modern card-based layout")?
+4. Specificity: does the plan describe SPECIFIC UI ("48px Söhne Bold header, [[1a1a1a]] on white") or generic patterns ("clean modern card-based layout")?
 5. What design decisions will haunt the implementer if left ambiguous?
 
 For each finding: what's wrong, severity (critical/high/medium), and the fix."

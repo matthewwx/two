@@ -1202,7 +1202,7 @@ Mark each finding as:
 When a finding is VERIFIED, search the entire codebase for the same vulnerability pattern. One confirmed SSRF means there may be 5 more. For each verified finding:
 1. Extract the core vulnerability pattern
 2. Use the Grep tool to search for the same pattern across all relevant files
-3. Report variants as separate findings linked to the original: "Variant of Finding #N"
+3. Report variants as separate findings linked to the original: "Variant of Finding [[N]]"
 
 **Parallel Finding Verification:**
 
