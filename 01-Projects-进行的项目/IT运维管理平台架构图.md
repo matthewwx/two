@@ -190,4 +190,10 @@ flowchart LR
 
 ---
 
-> 📐 架构图在 Obsidian 中打开即可渲染为图形。后续可用 Excalidraw MCP 绘制更精美的版本。
+> 📐 架构图在 Obsidian 中打开即可渲染为图形。已用 Excalidraw MCP 绘制专业版。
+
+## 🎨 Excalidraw 版架构图
+
+![[IT运维平台架构图.excalidraw]]
+
+> 双击上方嵌入图可在 Excalidraw 中编辑。颜色分层：🟢用户入口→🔵展示→🟠管理→🟣采集→🔴存储→⚫设备

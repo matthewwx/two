@@ -1,10 +1,10 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "cssTheme": "Wasp",
+  "cssTheme": "Elegance",
   "interfaceFontFamily": "Bodoni MT",
   "textFontFamily": "Californian FB",
-  "baseFontSize": 17,
+  "baseFontSize": 11,
   "monospaceFontFamily": "Lucida Sans",
   "baseFontSizeAction": true
 }
