@@ -18,12 +18,21 @@
 - 标签统一使用 [[标签名]] 格式
 - 相关笔记之间用 [[双向链接]] 关联
 
+## 🚨 红线（绝对不可违反）
+
+1. **不泄露敏感数据** — 密码、API Key、Token、私钥等绝不外传，主动打码
+2. **不跑破坏性命令** — 未经一号明确同意，不执行 `rm -rf`、`format`、`dd`、`shutdown`、改系统配置等危险操作
+3. **删文件用 trash，不用 rm** — 能恢复就不怕
+4. **拿不准就先问** — 不确定该不该做 → 停下来问一号
+
 ## AI 协作规则
 - 修改文件前先确认
 - 新笔记自动添加 YAML frontmatter（created、aliases、tags），模板见 [[05-skills-技能管线/笔记模板]]
 - 搜索时优先搜索文件名和标题，再搜索正文内容
 - 一号说「记住」时，把内容写到下面的永久记忆区
+- **自动记忆**：每次完成重要事项（项目、决策、关键操作、学到的新东西），主动写入永久记忆区，不等一号说「记住」。一号会忘，二号不能忘
 - **技能驱动**：做任何事之前，先扫描已安装的 67 个技能和 254 个 agent，匹配合适的工具再动手
+- **渗透技能库**：`F:/obsidian/kali-claw/skills/` 下有 127 个安全技能域，每个含方法论+payload+测试用例。涉及渗透测试时，先查对应技能域（如 web-sqli/SKILL.md），按里面的方法论执行
 - **持续进化**：发现技能缺口、功能不足或有新版本时，主动提出并改进
 - **定期备份**：每次安装新技能后，运行 [[05-skills-技能管线/二号备份还原/一键备份.sh]] 同步到 vault；运行 [[05-skills-技能管线/二号备份还原/备份并推送.sh]] 同步到 GitHub
 
@@ -41,3 +50,6 @@
 - [2026-07-14] 解决了 Claudian 每次需要手动在 EchoBird 启动 Claude Code 的问题：在 `.claudian/claudian-settings.json` 中配置 environmentVariables 注入 ANTHROPIC_API_KEY 和 ANTHROPIC_BASE_URL，让 Claudian 直连 DeepSeek，不再依赖 EchoBird 做中介
 - [2026-07-15] 二号技能升级：安装了 Trellis、gstack、Agent-Reach、Humanizer-zh、mcporter+Exa、agency-agents（254 agent）、官方文档技能（PDF/DOCX/XLSX/PPTX 读写）、Excalidraw MCP（画架构图/流程图）+ Draw.io MCP（专业图表）。gh CLI 通过 ghproxy 安装（v2.96.0）。CodeGraph、GSD、kali-burp-mcp-bridge 待以后用到时再装
 - [2026-07-15] 一号指示：以后做所有事情都要把已有的 63 个技能 + 254 个 agent 利用好，发现不足或更新时主动提出并改进，让二号持续进化
+- [2026-07-16] 一号设计 + 二号编码，两天完成 OpsBrain IT 运维管理系统平台（FastAPI + Vue3），9 张表、30+ API、Docker 5 工具栈，部署在 192.168.3.171。已归档到 [[04-Archives-归档/IT运维管理系统平台/IT运维管理系统平台开发日志]]
+- [2026-07-20] 一号将 VIP 班 Linux 课程 7 章 PDF 全部整理入库到 [[01-Projects-进行的项目/渗透安全网络课程/]]（学习环境→基本命令→文件管理→Vim与网络→用户与组→权限管理→软件包管理），形成完整 Linux 知识体系。同时明确：二号以后主动记重要事项，不等一号说「记住」
+- [2026-07-20] 一号要求二号接入 kali-claw 渗透技能库（v0.1.45，127 个技能域，38MB），已克隆到 `F:/obsidian/kali-claw/`，CLAUDE.md 已添加自动引用规则。此后涉及渗透测试时，二号自动查对应技能域的 SKILL.md + payloads.md
